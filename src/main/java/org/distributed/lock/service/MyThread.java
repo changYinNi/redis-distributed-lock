@@ -25,6 +25,7 @@ public class MyThread implements Runnable{
         reduceNumber = paramNumber;
         id = paramId;
         redisTemplate = predisTemplate;
+        //测试修改后再次提交gitHub MyThread类
     }
 
     public MyThread(){}
