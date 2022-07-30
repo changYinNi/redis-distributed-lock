@@ -1,0 +1,558 @@
+14:31:21.010 [main] INFO  o.d.lock.AppTest - [logStarted,59] - Started AppTest in 11.533 seconds (JVM running for 13.692)
+14:31:21.462 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+14:31:22.725 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+14:31:23.731 [Thread-2] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+14:31:23.759 [Thread-2] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+14:31:57.288 [main] INFO  o.d.lock.AppTest - [logStarting,50] - Starting AppTest on LaoNi-PC with PID 1244 (started by LaoNi in E:\Idea_WorkSpace\redis-distributed-lock)
+14:31:57.297 [main] INFO  o.d.lock.AppTest - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+14:32:05.089 [getRedisMessageListenerContainer-1] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+14:32:05.093 [getRedisMessageListenerContainer-1] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+14:32:06.670 [main] INFO  o.d.lock.AppTest - [logStarted,59] - Started AppTest in 11.138 seconds (JVM running for 12.961)
+14:32:07.134 [Thread-3] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.142 [Thread-3] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":10,"created":1654860391000}
+14:32:07.185 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.201 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.208 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.217 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.230 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.238 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.247 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.256 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.269 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.289 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.295 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.297 [Thread-3] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....10
+14:32:07.303 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.308 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.314 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.340 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.344 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.349 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.374 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.374 [Thread-3] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 9
+14:32:07.377 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.415 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.423 [Thread-6] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.424 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.427 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.434 [Thread-3] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 5d0c4776-6ad7-4bd5-bccd-1b95cf7da22c
+14:32:07.435 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.435 [Thread-6] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.441 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.445 [Thread-6] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":9,"created":1654860391000}
+14:32:07.445 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.446 [Thread-6] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....9
+14:32:07.450 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.456 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.457 [Thread-6] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 8
+14:32:07.459 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.461 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.465 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.471 [Thread-6] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 8adebb76-48a5-41a5-a621-881d8634f8f5
+14:32:07.471 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.474 [Thread-4] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.479 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.486 [Thread-4] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":8,"created":1654860391000}
+14:32:07.487 [Thread-4] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....8
+14:32:07.491 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.493 [Thread-7] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.499 [Thread-4] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 7
+14:32:07.501 [Thread-7] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.502 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.514 [Thread-7] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.514 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.517 [Thread-4] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 2c51b4f0-7011-449e-9dcd-99010800d19a
+14:32:07.520 [Thread-7] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.521 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.539 [Thread-7] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":7,"created":1654860391000}
+14:32:07.540 [Thread-7] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....7
+14:32:07.544 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.553 [Thread-7] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 6
+14:32:07.558 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.567 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.573 [Thread-7] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 6c424fae-2419-48e0-a7cd-7de62829ec6a
+14:32:07.605 [Thread-5] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.609 [Thread-8] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.613 [Thread-5] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":6,"created":1654860391000}
+14:32:07.614 [Thread-5] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....6
+14:32:07.620 [Thread-8] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.623 [Thread-5] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 5
+14:32:07.628 [Thread-8] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.652 [Thread-5] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 9c644968-8264-463d-a74d-a1617074baa3
+14:32:07.656 [Thread-8] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:07.663 [Thread-8] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.668 [Thread-8] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":5,"created":1654860391000}
+14:32:07.669 [Thread-8] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....5
+14:32:07.675 [Thread-8] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 4
+14:32:07.688 [Thread-8] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 779abe43-05b0-49a7-be57-5a02c57b2252
+14:32:07.695 [Thread-9] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.704 [Thread-9] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":4,"created":1654860391000}
+14:32:07.705 [Thread-9] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....4
+14:32:07.718 [Thread-9] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 3
+14:32:07.759 [Thread-9] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 25e6592f-791c-45a9-bb8c-d1c241df486a
+14:32:07.789 [Thread-10] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.800 [Thread-10] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":3,"created":1654860391000}
+14:32:07.801 [Thread-10] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....3
+14:32:07.806 [Thread-10] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 2
+14:32:07.829 [Thread-10] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: a47d299e-bf69-421d-9d8b-229fb89b91c9
+14:32:07.914 [Thread-11] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.948 [Thread-11] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":2,"created":1654860391000}
+14:32:07.949 [Thread-11] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....2
+14:32:07.956 [Thread-11] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 1
+14:32:07.967 [Thread-11] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 2144a231-69f9-4693-a873-7fa993c78543
+14:32:07.988 [Thread-12] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:07.993 [Thread-12] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":1,"created":1654860391000}
+14:32:07.993 [Thread-12] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....1
+14:32:07.999 [Thread-12] INFO  o.d.l.s.StockRedisService - [deductStock,77] - 商品扣减成功，剩余商品: 0
+14:32:08.010 [Thread-12] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: edc8e7a6-6834-469e-8f9c-9ec707c1bb36
+14:32:08.089 [Thread-13] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.095 [Thread-13] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.096 [Thread-13] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.097 [Thread-13] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.108 [Thread-13] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 59354837-9219-44f8-8927-8821775c5e92
+14:32:08.188 [Thread-14] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.207 [Thread-14] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.207 [Thread-14] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.207 [Thread-14] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.218 [Thread-14] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 288db675-a6d5-4a6f-ab0a-1612e5e8fddd
+14:32:08.300 [Thread-15] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.308 [Thread-15] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.309 [Thread-15] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.309 [Thread-15] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.319 [Thread-15] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 1fcb351e-81cb-4a7f-aaca-391fe464411f
+14:32:08.389 [Thread-16] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.395 [Thread-16] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.396 [Thread-16] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.396 [Thread-16] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.414 [Thread-16] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 05103917-4e58-4afd-8dd9-94bb8d434cdf
+14:32:08.492 [Thread-17] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.499 [Thread-17] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.500 [Thread-17] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.500 [Thread-17] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.510 [Thread-17] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: b50c1bb3-8934-4a41-a66f-b7d657650f58
+14:32:08.588 [Thread-18] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.594 [Thread-18] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.597 [Thread-18] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.597 [Thread-18] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.608 [Thread-18] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: a473f178-4fe1-42c9-b982-00012f7ceb9a
+14:32:08.690 [Thread-19] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.699 [Thread-19] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.700 [Thread-19] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.700 [Thread-19] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.711 [Thread-19] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: db0ac76c-af65-47be-8d27-2b632b5ddf41
+14:32:08.788 [Thread-20] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.794 [Thread-20] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.794 [Thread-20] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.794 [Thread-20] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.804 [Thread-20] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 988b1687-3043-4399-84d9-2395db3b2573
+14:32:08.901 [Thread-21] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.910 [Thread-21] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.911 [Thread-21] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.911 [Thread-21] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:08.953 [Thread-21] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 8c70d1e6-e697-4961-97bb-840762b8a281
+14:32:08.988 [Thread-22] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:08.996 [Thread-22] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:08.997 [Thread-22] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:08.997 [Thread-22] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.007 [Thread-22] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 51257870-9d51-450d-ae2d-66e6e997a5a6
+14:32:09.092 [Thread-23] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.096 [Thread-23] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.097 [Thread-23] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.097 [Thread-23] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.109 [Thread-23] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 6d8aa855-417d-4393-a01e-bfce22e55147
+14:32:09.195 [Thread-24] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.201 [Thread-24] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.201 [Thread-24] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.202 [Thread-24] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.212 [Thread-24] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: fce42b1b-aa36-4a68-b62a-a8120b396ef7
+14:32:09.304 [Thread-25] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.309 [Thread-25] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.310 [Thread-25] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.310 [Thread-25] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.351 [Thread-25] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 8f133b68-8ffc-4f88-9d8b-f104e614d901
+14:32:09.392 [Thread-26] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.399 [Thread-26] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.400 [Thread-26] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.400 [Thread-26] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.413 [Thread-26] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 26c215e4-4dcf-431a-b6a5-245eda2ed9c1
+14:32:09.492 [Thread-27] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.500 [Thread-27] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.500 [Thread-27] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.501 [Thread-27] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.512 [Thread-27] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 99b75931-1143-417b-8718-5b933bb75994
+14:32:09.591 [Thread-28] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.596 [Thread-28] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.597 [Thread-28] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.597 [Thread-28] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.607 [Thread-28] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: ccaa0e4f-eeee-4927-8f99-e8e959257953
+14:32:09.693 [Thread-29] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.709 [Thread-29] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.710 [Thread-29] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.710 [Thread-29] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.743 [Thread-29] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: f4fa2153-5a46-42ad-b82a-9a0ed8fb2fe0
+14:32:09.808 [Thread-30] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.815 [Thread-30] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.816 [Thread-30] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.816 [Thread-30] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.827 [Thread-30] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 9d9443c1-ff6a-47b2-8f5c-1f364924ceaf
+14:32:09.894 [Thread-31] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:09.903 [Thread-31] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:09.903 [Thread-31] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:09.903 [Thread-31] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:09.914 [Thread-31] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: f65d7440-7182-4f94-a152-9485b6a895e5
+14:32:09.991 [Thread-32] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.001 [Thread-32] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.001 [Thread-32] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.001 [Thread-32] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.014 [Thread-32] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: cd3fc679-a986-44e8-8ae3-105edf1a2285
+14:32:10.104 [Thread-33] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.112 [Thread-33] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.113 [Thread-33] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.113 [Thread-33] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.156 [Thread-33] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: a022f901-943e-4c7c-acbe-dd9e9fdae226
+14:32:10.192 [Thread-34] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.201 [Thread-34] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.202 [Thread-34] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.202 [Thread-34] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.215 [Thread-34] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: b37c8a92-b99a-4218-932b-37945890a4b2
+14:32:10.301 [Thread-35] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.311 [Thread-35] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.312 [Thread-35] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.312 [Thread-35] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.355 [Thread-35] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: f941c61a-300b-4aa5-a248-a11c3d20567d
+14:32:10.393 [Thread-36] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.403 [Thread-36] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.403 [Thread-36] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.404 [Thread-36] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.419 [Thread-36] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: e8682f58-1bb7-48f1-b250-265e01bdbcdf
+14:32:10.508 [Thread-37] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.515 [Thread-37] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.516 [Thread-37] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.516 [Thread-37] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.535 [Thread-37] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 0c735908-eabc-4048-a585-04b8d0b042c0
+14:32:10.591 [Thread-38] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.606 [Thread-38] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.607 [Thread-38] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.607 [Thread-38] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.626 [Thread-38] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 1d1adc79-590d-4d67-8654-6b5ca2169bee
+14:32:10.705 [Thread-39] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.717 [Thread-39] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.718 [Thread-39] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.718 [Thread-39] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.766 [Thread-39] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 3e53d11b-52cf-4877-a4b7-fe0d3abe2d08
+14:32:10.790 [Thread-40] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.796 [Thread-40] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.797 [Thread-40] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.797 [Thread-40] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.820 [Thread-40] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 946b05d0-0eec-45bc-a5dc-fb8ef5fe79b6
+14:32:10.906 [Thread-41] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.917 [Thread-41] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.918 [Thread-41] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.918 [Thread-41] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:10.940 [Thread-41] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: cf82528b-1ac7-4402-acab-5aa74e11619d
+14:32:10.989 [Thread-42] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:10.997 [Thread-42] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:10.998 [Thread-42] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:10.998 [Thread-42] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.015 [Thread-42] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: d84c98e6-6645-4b46-85b9-26390fa7b3f8
+14:32:11.098 [Thread-43] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.105 [Thread-43] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.106 [Thread-43] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.107 [Thread-43] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.136 [Thread-43] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 8cb5f7ff-e2b3-4ec1-ae89-e5f5a873d8b5
+14:32:11.191 [Thread-44] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.200 [Thread-44] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.201 [Thread-44] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.201 [Thread-44] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.217 [Thread-44] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 24b2c34d-23ab-4921-9a6c-4bebb2d38887
+14:32:11.300 [Thread-45] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.305 [Thread-45] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.306 [Thread-45] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.306 [Thread-45] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.323 [Thread-45] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: a811e689-bed9-4545-9eae-2e186704c781
+14:32:11.391 [Thread-46] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.401 [Thread-46] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.405 [Thread-46] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.405 [Thread-46] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.424 [Thread-46] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 4629e0e6-ff14-4b4a-b997-bae22c727f8a
+14:32:11.498 [Thread-47] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.511 [Thread-47] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.512 [Thread-47] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.512 [Thread-47] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.549 [Thread-47] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: e9d730cb-a15b-4417-a3a5-63745794177b
+14:32:11.590 [Thread-48] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.596 [Thread-48] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.596 [Thread-48] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.596 [Thread-48] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.606 [Thread-48] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 91226fb6-0be2-43ba-aa4b-39cca7ac8d4e
+14:32:11.705 [Thread-49] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.712 [Thread-49] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.712 [Thread-49] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.712 [Thread-49] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.737 [Thread-49] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: c8bab470-9b10-49c1-94a0-e627bcfb7c97
+14:32:11.802 [Thread-50] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.848 [Thread-50] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.848 [Thread-50] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.849 [Thread-50] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:11.861 [Thread-50] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 016d249d-0562-4ea2-b803-aff31111bd3a
+14:32:11.951 [Thread-51] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:11.965 [Thread-51] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:11.966 [Thread-51] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:11.966 [Thread-51] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.015 [Thread-52] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: false
+14:32:12.020 [Thread-51] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 93ebcf59-46eb-46eb-91df-e82c6bbb4951
+14:32:12.024 [Thread-52] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.038 [Thread-52] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.039 [Thread-52] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.039 [Thread-52] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.050 [Thread-52] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 410e321c-7efa-4485-a956-40cd14cbb16d
+14:32:12.100 [Thread-53] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.113 [Thread-53] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.113 [Thread-53] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.113 [Thread-53] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.147 [Thread-53] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: f712e26b-ccbc-47b5-b342-24e93119cc95
+14:32:12.189 [Thread-54] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.200 [Thread-54] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.201 [Thread-54] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.202 [Thread-54] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.211 [Thread-54] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 54bd394d-e3ae-440b-8190-51ae1341a2a3
+14:32:12.300 [Thread-55] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.305 [Thread-55] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.305 [Thread-55] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.305 [Thread-55] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.319 [Thread-55] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 4c7998e6-5e19-47aa-b40c-23fafe13e26f
+14:32:12.392 [Thread-56] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.398 [Thread-56] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.399 [Thread-56] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.399 [Thread-56] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.423 [Thread-56] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 51f05740-f572-4797-8597-b5828bc1ea33
+14:32:12.489 [Thread-57] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.495 [Thread-57] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.495 [Thread-57] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.496 [Thread-57] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.510 [Thread-57] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 5d790ce7-e029-42af-85d0-1bd9de2eb792
+14:32:12.590 [Thread-58] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.597 [Thread-58] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.597 [Thread-58] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.597 [Thread-58] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.609 [Thread-58] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 2d83ddb5-a887-45cd-ab45-719438d9d802
+14:32:12.703 [Thread-59] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.711 [Thread-59] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.711 [Thread-59] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.712 [Thread-59] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.718 [Thread-59] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: f25c9b1e-6616-48b4-858c-25fae5915115
+14:32:12.789 [Thread-60] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.793 [Thread-60] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.794 [Thread-60] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.794 [Thread-60] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.802 [Thread-60] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 9515965f-50d4-4897-85b6-5b8312f189cc
+14:32:12.897 [Thread-61] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.902 [Thread-61] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.903 [Thread-61] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.903 [Thread-61] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:12.918 [Thread-61] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 72f35b77-6686-4d69-a24f-fab686678d44
+14:32:12.990 [Thread-62] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:12.995 [Thread-62] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:12.995 [Thread-62] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:12.996 [Thread-62] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.005 [Thread-62] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 7117335a-714f-4513-9a43-5be3624ca56c
+14:32:13.091 [Thread-63] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.100 [Thread-63] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.101 [Thread-63] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.101 [Thread-63] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.118 [Thread-63] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 72385f84-b349-44a8-a4e8-ed4d14f41ffd
+14:32:13.193 [Thread-64] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.201 [Thread-64] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.202 [Thread-64] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.202 [Thread-64] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.215 [Thread-64] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: df0bcde3-d88c-4943-906e-ff67aac984be
+14:32:13.292 [Thread-65] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.300 [Thread-65] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.301 [Thread-65] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.301 [Thread-65] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.313 [Thread-65] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 62d8cc9c-f613-4152-9c31-7ca0bd35fe3c
+14:32:13.392 [Thread-66] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.397 [Thread-66] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.398 [Thread-66] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.398 [Thread-66] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.407 [Thread-66] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 94411866-0557-4aa1-8ae0-845fc0c5427f
+14:32:13.497 [Thread-67] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.504 [Thread-67] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.505 [Thread-67] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.505 [Thread-67] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.547 [Thread-67] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: c7ec345e-5ec7-4848-9586-f6001fcc5e4c
+14:32:13.590 [Thread-68] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.596 [Thread-68] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.597 [Thread-68] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.597 [Thread-68] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.608 [Thread-68] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: e79f9c5c-bd2a-4ae4-b856-879b6daf6573
+14:32:13.692 [Thread-69] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.699 [Thread-69] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.700 [Thread-69] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.700 [Thread-69] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.712 [Thread-69] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 58378ea2-75f8-4d31-a942-d5cf48e98e36
+14:32:13.822 [Thread-70] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.828 [Thread-70] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.829 [Thread-70] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.829 [Thread-70] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.859 [Thread-70] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: c9914ae5-4f1c-458e-9481-3b1d3f88dd7f
+14:32:13.898 [Thread-71] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:13.913 [Thread-71] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:13.913 [Thread-71] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:13.914 [Thread-71] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:13.957 [Thread-71] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 41086c97-9672-45a4-9ebc-e64ad59a2023
+14:32:13.994 [Thread-72] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.000 [Thread-72] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.000 [Thread-72] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.000 [Thread-72] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.013 [Thread-72] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 31f28cf7-3d8c-4201-b1fe-a54058465e96
+14:32:14.092 [Thread-73] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.105 [Thread-73] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.106 [Thread-73] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.106 [Thread-73] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.117 [Thread-73] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 40203533-da5d-4ad3-a917-d6f6392bc235
+14:32:14.190 [Thread-74] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.199 [Thread-74] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.199 [Thread-74] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.200 [Thread-74] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.223 [Thread-74] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 75bbeeb5-2c12-4e9e-8401-97b89c97bf8d
+14:32:14.297 [Thread-75] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.304 [Thread-75] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.305 [Thread-75] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.305 [Thread-75] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.340 [Thread-75] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 1bfa8a8d-5912-477c-b34b-1eac7ebed10f
+14:32:14.392 [Thread-76] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.399 [Thread-76] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.400 [Thread-76] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.400 [Thread-76] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.415 [Thread-76] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: dc660c4f-ba1e-48af-890e-0c96b676f0ee
+14:32:14.496 [Thread-77] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.503 [Thread-77] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.503 [Thread-77] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.503 [Thread-77] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.516 [Thread-77] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: a1de4795-74b2-4f2d-b3a6-d741c63bd3ba
+14:32:14.590 [Thread-78] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.599 [Thread-78] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.599 [Thread-78] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.599 [Thread-78] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.615 [Thread-78] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: c21565d1-7683-4c3b-a515-7c8f12e22187
+14:32:14.698 [Thread-79] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.703 [Thread-79] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.704 [Thread-79] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.704 [Thread-79] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.747 [Thread-79] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: c0ef8198-2be8-4046-8488-37af51e07deb
+14:32:14.795 [Thread-80] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.804 [Thread-80] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.805 [Thread-80] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.805 [Thread-80] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.817 [Thread-80] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: fa28914a-3ea7-484c-ad38-595cfddc8e19
+14:32:14.905 [Thread-81] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:14.915 [Thread-81] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:14.917 [Thread-81] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:14.917 [Thread-81] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:14.927 [Thread-81] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 4122d81f-ba59-4649-87b9-df0b92595cd5
+14:32:14.993 [Thread-82] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.005 [Thread-82] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.005 [Thread-82] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.006 [Thread-82] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.021 [Thread-82] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 4cec252c-7f6f-454c-ae91-e5c1a6092790
+14:32:15.094 [Thread-83] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.100 [Thread-83] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.100 [Thread-83] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.100 [Thread-83] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.116 [Thread-83] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: d7fc3413-9d9d-4f60-ab4c-acaa4e99864d
+14:32:15.191 [Thread-84] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.206 [Thread-84] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.207 [Thread-84] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.207 [Thread-84] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.225 [Thread-84] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 60f4d70a-ef98-4e6d-8109-37a7460f6d64
+14:32:15.293 [Thread-85] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.302 [Thread-85] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.303 [Thread-85] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.303 [Thread-85] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.350 [Thread-85] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 90a8c6bb-3118-41f1-afec-239fc609bf02
+14:32:15.390 [Thread-86] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.396 [Thread-86] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.397 [Thread-86] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.398 [Thread-86] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.409 [Thread-86] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 640705e6-7871-430e-9d33-0fc3fdbff8c4
+14:32:15.496 [Thread-87] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.502 [Thread-87] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.502 [Thread-87] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.503 [Thread-87] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.513 [Thread-87] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 05d8d246-20ff-4afb-b979-cbc69ea3d9e3
+14:32:15.590 [Thread-88] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.599 [Thread-88] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.599 [Thread-88] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.599 [Thread-88] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.619 [Thread-88] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: a4a2062e-9e74-472f-b587-16054b09f391
+14:32:15.704 [Thread-89] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.711 [Thread-89] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.711 [Thread-89] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.712 [Thread-89] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.774 [Thread-89] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 6c7a7c59-d72e-456f-973a-156786edd5fe
+14:32:15.793 [Thread-90] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.807 [Thread-90] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.808 [Thread-90] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.808 [Thread-90] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.819 [Thread-90] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 08f5f059-e6a2-446b-b245-55e7a30cf3f0
+14:32:15.895 [Thread-91] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:15.905 [Thread-91] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:15.905 [Thread-91] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:15.905 [Thread-91] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:15.916 [Thread-91] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 12fce895-e6da-4935-ba5b-c192c18df359
+14:32:15.996 [Thread-92] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.003 [Thread-92] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.004 [Thread-92] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.004 [Thread-92] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.013 [Thread-92] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: ba162a62-d63d-4419-995a-99e02c7eeae5
+14:32:16.101 [Thread-93] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.111 [Thread-93] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.112 [Thread-93] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.112 [Thread-93] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.147 [Thread-93] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: b5fb0da6-085c-42ca-94ad-22a187a8371b
+14:32:16.193 [Thread-94] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.198 [Thread-94] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.199 [Thread-94] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.199 [Thread-94] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.211 [Thread-94] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: cdd40386-2c6a-4544-9e52-ad5e1428db55
+14:32:16.303 [Thread-95] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.312 [Thread-95] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.313 [Thread-95] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.313 [Thread-95] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.344 [Thread-95] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 896dcbc5-e2ef-4876-9b10-9cb2d1ca8880
+14:32:16.396 [Thread-96] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.401 [Thread-96] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.402 [Thread-96] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.402 [Thread-96] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.414 [Thread-96] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 80b30d13-2abb-4458-bbad-a7f97920def3
+14:32:16.503 [Thread-97] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.507 [Thread-97] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.507 [Thread-97] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.508 [Thread-97] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.532 [Thread-97] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 427b96df-2f7a-498b-b291-7919ca6ad86a
+14:32:16.592 [Thread-98] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.601 [Thread-98] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.602 [Thread-98] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.602 [Thread-98] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.610 [Thread-98] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 8bb0601a-d7f3-4cf3-bb14-d64f5de49fd6
+14:32:16.707 [Thread-99] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.712 [Thread-99] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.713 [Thread-99] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.713 [Thread-99] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.747 [Thread-99] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 8b745605-841f-41a5-9f67-ce1bf105a77c
+14:32:16.792 [Thread-100] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.797 [Thread-100] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.797 [Thread-100] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.797 [Thread-100] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.816 [Thread-100] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 5cec7abc-8da0-4771-ad2b-fabd1d81b331
+14:32:16.912 [Thread-101] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.927 [Thread-101] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.927 [Thread-101] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.927 [Thread-101] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:16.940 [Thread-101] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 0bd218f8-043e-4dcb-a32b-324843c58fb0
+14:32:16.992 [Thread-102] INFO  o.d.l.s.StockRedisService - [getRedisLock,39] - result: true
+14:32:16.998 [Thread-102] INFO  o.d.l.s.StockRedisService - [deductStock,67] - objStock.....{"id":3,"shopid":"b3fc4bfa-e955-11ec-b889-000c29c80808","shopname":"shop_name_3","stock":0,"created":1654860391000}
+14:32:16.999 [Thread-102] INFO  o.d.l.s.StockRedisService - [deductStock,71] - stockNum.....0
+14:32:16.999 [Thread-102] INFO  o.d.l.s.StockRedisService - [deductStock,79] - 库存不足.....
+14:32:17.013 [Thread-102] INFO  o.d.l.s.StockRedisService - [deductStock,86] - 解除lock: 973ce198-f5e8-4c03-8104-17ad518fe917
